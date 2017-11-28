@@ -1,0 +1,53 @@
+doctype html
+html 
+  head
+    title CareerStreams | Sponsorships
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    meta(property='og:title', content='CareerStreams | Sponsorships')
+    meta(property='og:url', content='https://careersteams.com/sponsorships')
+    meta(property='og:site_name', content='CareerStreams')
+    meta(property='og:image', content='http://careerstreams.com/img/cs-fb-img.jpg')
+        
+    link(rel="icon", type="image/png" href="img/fav.png")
+    
+    link(rel="stylesheet", href="css/reset.css")
+    link(rel="stylesheet", href="css/styles.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+
+  body
+
+    include includes/header.jade
+
+    main
+      section.sponsorships-intro
+        h2.serif.ttu Sponsorships
+
+      section.services-content.row
+        .overview
+          h4.serif.ttu CareerStreams Supports Local Teams
+          .row.sponsors
+            .one-third
+              img(src="img/spitfires.png", alt="")
+              h5 Windsor Spitfires
+            .one-third
+              img(src="img/wsc.png", alt="")
+              h5 Windsor Soccer club
+            .one-third
+              img(src="img/csa.png", alt="")
+              h5 Ciociaro soccer association
+          .row.sponsors
+            .one-third
+              img(src="img/nwl.png", alt="")
+              h5 Nor'West London Optimist Soccer
+            .one-third
+              img(src="img/ww.png", alt="")
+              h5 Windsor Wildcats Girls Fastball Association
+          
+
+      include includes/footer.jade
+
+
+    //Scripts
+    include includes/scripts.jade

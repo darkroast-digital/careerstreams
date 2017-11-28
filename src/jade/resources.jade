@@ -1,0 +1,112 @@
+doctype html
+html
+  head
+    title CareerStreams | Resources
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    meta(property='og:title', content='CareerStreams | Resources')
+    meta(property='og:url', content='https://careersteams.com/resources')
+    meta(property='og:site_name', content='CareerStreams')
+    meta(property='og:image', content='http://careerstreams.com/img/cs-fb-img.jpg')
+        
+    link(rel="icon", type="image/png" href="img/fav.png")
+    
+    link(rel="stylesheet", href="css/reset.css")
+    link(rel="stylesheet", href="css/styles.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+
+  body
+
+    include includes/header.jade
+
+    main
+      section.resources-intro
+        h2.serif.ttu Resources
+
+      section.services-content.row
+        .overview
+          h4.serif.ttu Putting Clients in Touch With Their Potential
+
+        section.accordion
+          dl
+            dt
+              a.accordion-title.accordionTitle.js-accordionTrigger(href='#accordion1', aria-expanded='false', aria-controls='accordion1') EMPLOYMENT RESOURCES
+            dd#accordion1.accordion-content.accordionItem.is-collapsed(aria-hidden='true')
+              .row.acc-row
+                .one-third
+                  .one-half
+                    img.acc-img(src="../img/workopolis.png")
+                  .one-half
+                    h5 Workopolis
+                    a(href="http://www.workopolis.com") www.workopolis.com
+                .one-third
+                  .one-half
+                    img.acc-img(src="../img/monster.png")
+                  .one-half
+                    h5 Monster
+                    a(href="http://www.monster.ca") www.monster.ca
+                .one-third
+                  .one-half
+                    img.acc-img(src="./img/job-bank.png", alt="")
+                  .one-half
+                    h5 Job Bank
+                    a(href="http://www.jobbank.gc.ca/") www.jobbank.gc.ca
+              .row.acc-row
+                .one-third
+                  .one-half
+                    img.acc-img(src="../img/charity-village.png")
+                  .one-half
+                    h5 Charity Village
+                    a(href="http://charityvillage.com/") www.charityvillage.com
+                .one-third
+                  .one-half
+                    img.acc-img(src="../img/me-com.gif")
+                  .one-half
+                    h5  Religious Employment
+                    a(href="http://www.ministryemployment.com") www.ministryemployment.com
+                .one-third
+                  .one-half
+                    img.acc-img(src="../img/choose-windsor.gif")
+                  .one-half
+                    h5 Manufacturers’ Directory
+                    a(href="www.choosewindsor.com ") www.choosewindsor.com 
+              .row.acc-row
+                .one-third
+                  .one-half
+                    img.acc-img(src="../img/neuvoo.png")
+                  .one-half
+                    h5 Neuvoo
+                    a(href="http://www.neuvoo.ca") www.neuvoo.ca
+                
+            dt
+              a.accordion-title.accordionTitle.js-accordionTrigger(href='#accordion2', aria-expanded='false', aria-controls='accordion2')
+                | COMMUNITY RESOURCES
+            dd#accordion2.accordion-content.accordionItem.is-collapsed(aria-hidden='true')
+              .row.acc-row
+                .one
+                  h5 A complete listing of all non-profit, service organizations, and community groups.
+                  a(href="http://www.informationwindsor.ca") www.informationwindsor.ca
+                .one
+                  h5  The United Way– hundreds of volunteer opportunities
+                  a(href="http://www.weareunited.ca") www.weareunited.ca
+                .one
+                  h5 A complete listing of all non-profit, service organizations, and community groups.
+                  a(href="http://www.informationwindsor.ca") www.informationwindsor.ca
+            dt
+              a.accordion-title.accordionTitle.js-accordionTrigger(href='#accordion3', aria-expanded='false', aria-controls='accordion3')
+                | RECRUITING FIRMS 
+            dd#accordion3.accordion-content.accordionItem.is-collapsed(aria-hidden='true')
+              .row.acc-row
+                .one
+                  h5 Canadian Health Partners - Medical/Nursing Specialty organizations, and community groups.
+                  a(href="http://www.healthpartnersinc.com") www.healthpartnersinc.com
+                .one
+                  h5  Execusource
+                  a(href="http:// www.execusourcestaffing.com")  www.execusourcestaffing.com
+
+      include includes/footer.jade
+
+
+    //Scripts
+    include includes/scripts.jade

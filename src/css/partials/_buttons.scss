@@ -1,0 +1,46 @@
+.btn {
+  display: inline-block;
+  padding: 10px 16.5px;
+  background: $woodsmoke;
+  color: $white;
+  border: $woodsmoke solid 1px;
+  font-family: $font-one;
+  transition: $easing;
+
+  &:hover {
+    background: none;
+    color: $woodsmoke;
+  }
+}
+
+.btn-border {
+  background: none;
+  color: $woodsmoke;
+
+  &:hover {
+    background: $woodsmoke;
+    color: $white;
+  }
+}
+
+.btn-light {
+  background: $white;
+  color: $woodsmoke;
+  border-color: $white;
+
+  &:hover {
+    background: none;
+    color: $white;
+  }
+}
+
+.btn-border-light {
+  background: none;
+  color: $white;
+  border-color: $white;
+
+  &:hover {
+    background: $white;
+    color: $woodsmoke;
+  }
+}

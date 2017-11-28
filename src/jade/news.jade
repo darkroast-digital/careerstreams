@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title CareerStreams | News
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    
+    meta(property='og:title', content='CareerStreams | News')
+    meta(property='og:url', content='https://careersteams.com/news')
+    meta(property='og:site_name', content='CareerStreams')
+    meta(property='og:image', content='http://careerstreams.com/img/cs-fb-img.jpg')
+        
+    link(rel="icon", type="image/png" href="img/fav.png")
+    
+    link(rel="stylesheet", href="css/reset.css")
+    link(rel="stylesheet", href="css/styles.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+
+  body
+    #fb-root
+    script.
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6";
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+       
+    include includes/header.jade
+ 
+    main
+      section.news-intro
+        h2.serif.ttu News
+
+      section.services-content.row
+        .overview 
+          h4.serif.ttu What's New At CareerStreams.
+          .one-half
+            h5 We Are Biz of the Month in BizX Magazine.
+            .whats-new-alt
+              img(src="img/article-feature.jpg", alt="")
+              h6 CareerStreams:  Putting Clients In Touch With Their Personal Potential.
+              p Taking its cue from its growing client base, Windsor's CareerStreams counselling service recently entered an "expansion phase" after 15 years in business by asking itself the same question it hears from clients: "Where do I go from here?"
+              a(href="/") Read The Full Article Here
+          .one-half
+            .fb-page(data-href='https://www.facebook.com/CareerStreamsWindsor', data-tabs='timeline', data-width="1000", data-height="590", data-small-header='true', data-adapt-container-width='true', data-hide-cover='true', data-show-facepile='false')
+              .fb-xfbml-parse-ignore
+                blockquote(cite='https://www.facebook.com/CareerStreamsWindsor')
+                  a(href='https://www.facebook.com/CareerStreamsWindsor') CareerStreams
+
+
+
+      include includes/footer.jade
+
+
+    //Scripts
+    include includes/scripts.jade

@@ -1,0 +1,81 @@
+doctype html
+html
+  head
+    title CareerStreams | Employment Directions for Career Change & Return to Work
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="css/reset.css")
+    link(rel="stylesheet", href="css/styles.css")
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css")
+
+  body
+
+    include includes/header.jade
+
+    main
+      section.about-intro
+        h2.serif.ttu Contact Us
+
+      section.services-content.row
+        .contact
+          h4.serif.ttu Get In Touch
+          p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui non odio obcaecati eos illo voluptatem est laborum dignissimos quos, nihil, architecto debitis a labore cum accusantium fugit cumque nostrum facilis?
+          .row
+            .one-twelfth
+              i.fa.fa-map-marker
+            .eleven-twelfth
+              h5 Head Office
+              p  3100 Temple Drive, Suite 700,  Windsor, Ontario,  N8W 5J6, CANADA (see map)
+          .row
+            .one-twelfth
+              i.fa.fa-map-marker
+            .eleven-twelfth
+              h5 Head Office
+              p  3100 Temple Drive, Suite 700,  Windsor, Ontario,  N8W 5J6, CANADA (see map)
+          .row
+            .one-twelfth
+              i.fa.fa-phone
+            .eleven-twelfth
+              h5 (519) 254-4246
+          .row
+            .one-twelfth
+              i.fa.fa-fax
+            .eleven-twelfth
+              h5 (519) 254-7329
+          .row
+            .one-twelfth
+              i.fa.fa-envelope
+            .eleven-twelfth
+              h5
+                a(href="mailto:fdm@careerstreams.com") Fabio De Menech - President
+          .row
+            .one-twelfth
+              i.fa.fa-envelope
+            .eleven-twelfth
+              h5
+                a(href="mailto:mdemenech@careerstreams.com") Massimo De Menech - Marketing & Commnications Coordinator
+        section.form
+          .row
+            h5.general-info General Information
+            #contact_form.form-style
+              #contact_body
+                .name
+                  label(for="name") Name
+                  input#name.input-field(type='text', name='name', required='true', autocomplete='off')
+                .email
+                  label(for="email") Email
+                  input#email.input-field(type='text', name='email', required='true', autocomplete='off')
+                .subject
+                  label(for="subject") Subject
+                  input#subject.input-field(type='text', name='subject', maxlength='15', required='false', autocomplete='off')
+                .message
+                  label.message-label(for="message") Message
+                  textarea#message.textarea-field(name='message', required='true', rows="15", autocomplete='off')
+                input#submit_btn.submit-field(type='submit', value='Submit')
+              #contact_results
+
+      include includes/footer.jade
+
+ 
+    //Scripts
+    include includes/scripts.jade

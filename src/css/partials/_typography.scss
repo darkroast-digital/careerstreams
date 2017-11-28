@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900);
+
+$font-one: Montserrat;
+$font-two: Playfair Display;
+$body-font: Raleway;
+
+body {
+  font-family: $body-font;
+  font-size: 14px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6 {
+  font-family: $font-one;
+}
+
+h1 {
+  font-size: 75px;
+  font-weight: 700;
+  font-size: responsive 60px 75px;
+  font-range: 420px 1280px;
+
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: 700;
+  font-size: responsive 50px 60px;
+  font-range: 420px 1280px;
+
+}
+
+h3 {
+  font-size: 50px;
+  font-weight: 700;
+  font-size: responsive 32px 50px;
+  font-range: 420px 1280px;
+
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 400;
+  font-size: responsive 20px 32px;
+  font-range: 420px 1280px;
+
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 400;
+  font-size: responsive 18px 20px;
+  font-range: 420px 1280px;
+
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 400;
+  font-size: responsive 16px 18px;
+  font-range: 420px 1280px;
+
+}
+
+.heading-alternate {
+  font-family: $font-two;
+}
