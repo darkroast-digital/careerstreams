@@ -3489,3 +3489,14 @@ textarea {
   @media only screen and (max-width: 768px) {
     #siteseal {
       display: block; } }
+
+.video {
+  margin-top:1rem;
+}
+
+@media screen and (max-width:512px) {
+  .video iframe {
+    width:350px;
+    height:220px;
+  }
+}
