@@ -493,6 +493,17 @@ footer {
     color: $main-colour;
   }
 }
+
+.video {
+  margin-top:1rem;
+}
+
+@media screen and (max-width:512px) {
+  .video iframe {
+    width:350px;
+    height:220px;
+  }
+}
 //=============================
 //=============================
 
