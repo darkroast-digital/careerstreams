@@ -3500,3 +3500,15 @@ textarea {
     height:220px;
   }
 }
+
+img.anniversary {
+  max-width:400px;
+  margin:1rem 0;
+}
+
+@media screen and (max-width:512px) {
+  img.anniversary {
+    max-width:300px;
+  }
+}
+
