@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CareerStreams Resources Inc. | Employment Directions for Career Change & Return to Work</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="serif">
+        <div class="header-contact__left pull-left">
+            <p>3100 Temple Drive Suite 700, Windsor, Ontario</p>
+            <p>380 Wellington St., 6th Floor, Suite 634, London, Ontario</p>
+            <p class="header-font-large">Serving Windsor, London, Chatham, Sarnia.</p>
+        </div>
+        <div class="header-crest"><img src="img/crest.png" alt="Career Streams" draggable="false"></div>
+        <div class="header-contact__right pull-right">
+            <p>Call Us Today</p>
+            <p class="header-font-large">519.254.4246</p>
+<ul style="display:flex;margin-top:1rem;">
+              <li style="flex:1 1 auto;margin-right:10px;"><span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=4cvkhfjvoagVecRfEkyxqJLgxlEwK3d0zQwCSPiwSOA35245sO1onnK2MLiH"></script></span></li>
+              <li style="flex:1 1 auto;"><a href="#" onclick="window.open('https://www.sitelock.com/verify.php?site=cs.darkroast.co','SiteLock','width=600,height=600,left=160,top=170');" ><img class="img-responsive" style="max-width:100%;max-height:50px;" alt="SiteLock" title="SiteLock" src="//shield.sitelock.com/shield/cs.darkroast.co" /></a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="mobile-trigger">
+        <ul>
+            <li class="top"></li>
+            <li class="middle"></li>
+            <li class="bottom"></li>
+        </ul>
+    </div>
+    <div class="mobile-menu">
+        <ul>
+            <li><a href="index">Home</a></li>
+            <li><a href="services">Services</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="communty-involvment">Community Involvment</a></li>
+            <li><a href="news">News</a></li>
+            <li><a href="resources">Resources</a></li>
+            <li><a href="contact">Contact</a></li>
+        </ul>
+    </div>
+    <nav class="nav">
+        <div class="row">
+            <ul class="navbar pull-left">
+                <li><a href="index">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li class="dropdown"><a href="about" class="dropdown-trigger">About</a>
+                    <ul class="dropdown-menu bottom-line-plain">
+                        <li><a href="communty-involvment">Community Involvment <i class="fa fa-caret-right"></i></a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="navbar pull-right">
+                <li><a href="news">News</a></li>
+                <li><a href="resources">Resources</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section class="sponsorships-intro">
+            <h2 class="serif ttu">Community Involvement</h2></section>
+        <section class="services-content row">
+            <div class="overview">
+                <h4 class="serif ttu">CareerStreams Resources Inc. Supports Local Teams</h4>
+                <div class="row sponsors">
+                    <div class="one-third"><img src="img/spitfires.png" alt="">
+                        <h5>Windsor Spitfires</h5></div>
+                    <div class="one-third"><img src="img/wsc.png" alt="">
+                        <h5>Windsor Soccer Club</h5></div>
+                    <div class="one-third"><img src="img/csa.png" alt="">
+                        <h5>Ciociaro Soccer Association</h5></div>
+                </div>
+                <div class="row sponsors">
+                    <div class="one-third"> <img src="img/elsa.jpg" alt="">
+                        <h5>East London Soccer Association</h5></div>
+                </div>
+            </div>
+        </section>
+        <div class="footer-mobile">
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="about">About</a></li>
+                <li><a href="news">News</a></li>
+                <li><a href="resources">Resources</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            <ul class="socials">
+                <li><a href="/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="/"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="/"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+            <h4 class="serif phone">519.254.4246  </h4></div>
+        <footer>
+            <div class="row">
+                <div class="pull-left">
+                    <ul class="navbar">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="services">Services</a></li>
+                        <li><a href="about">About</a></li>
+                    </ul>
+                    <h4 class="serif phone">519.254.4246</h4></div>
+                <div class="pull-right">
+                    <ul class="navbar">
+                        <li><a href="news">News</a></li>
+                        <li><a href="resources">Resources</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                    <ul class="socials">
+                        <li><a href="/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="/"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="/"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                    <a href="img/privacy_policy.pdf" target="_blank" style="color:white;float:right;">Privacy Policy</a>
+                </div>
+            </div>
+            <div class="footer-crest"><img src="img/footer-crest.png" alt="Career Streams"></div>
+        </footer>
+    </main>
+    <!--Scripts-->
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/typing.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCI08eriA8915zsBb5f-ZTdaoFokv1-qTk"></script>
+    <script src="js/jquery.ibacor-fb-streaming.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
